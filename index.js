@@ -27,7 +27,7 @@ app.get("/welcome", async (req, res) => {
     // ===== BACKGROUND =====
     try {
       const background = await Canvas.loadImage(
-        "https://cdn.discordapp.com/attachments/1315296239096696832/1516845353452699789/Capy_20260605_232214_0000.png"
+        "https://cdn.discordapp.com/attachments/1344720407953150004/1516849661363752970/Capy_20260605_232214_0000.png?ex=6a3423d4&is=6a32d254&hm=34267ff4fdeeab25129a300bf8ff63d1d2565ab86bfe7fbaa9cdaa218a6b4369&"
       );
 
       ctx.drawImage(
