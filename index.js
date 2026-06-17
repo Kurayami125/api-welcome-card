@@ -130,7 +130,7 @@ app.get("/welcome", async (req, res) => {
     ctx.fillStyle = "#ffffff";
     ctx.font = "bold 64px Sans";
     ctx.fillText(
-      "WELCOME",
+      "WELCOME TO CAPY SHOP",
       500,
       400
     );
@@ -160,7 +160,7 @@ app.get("/welcome", async (req, res) => {
     ctx.fillStyle = "#ffffff";
     ctx.font = "24px Sans";
     ctx.fillText(
-      "🦫 CAPY SHOP",
+      "Uy Tín • Nhanh Chóng • Chuyên Nghiệp • Thân Thiện",
       500,
       560
     );
