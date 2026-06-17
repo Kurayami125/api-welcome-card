@@ -38,7 +38,7 @@ app.get("/welcome", async (req, res) => {
         canvas.height
       );
     } catch {
-      // Nếu ảnh lỗi thì dùng nền màu
+      // Fallback nếu ảnh nền lỗi
       ctx.fillStyle = "#5E4A36";
       ctx.fillRect(
         0,
@@ -48,7 +48,7 @@ app.get("/welcome", async (req, res) => {
       );
     }
 
-    // Overlay tối
+    // Overlay
     ctx.fillStyle = "rgba(0,0,0,0.45)";
     ctx.fillRect(
       0,
